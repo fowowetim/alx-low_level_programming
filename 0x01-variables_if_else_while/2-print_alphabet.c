@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - entry point
  *
  * result= always 0
