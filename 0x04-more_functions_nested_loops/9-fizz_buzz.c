@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - main function
+ *
  * Return: end program
  */
 int main(void)
@@ -21,4 +22,4 @@ int main(void)
 	}
 	printf("Buzz\n");
 	return (0);
-}	
+}
