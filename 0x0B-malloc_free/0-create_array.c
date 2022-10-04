@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*8
+/*
  * create_array - function that create a array
  * @size: parameter with the size of the array
  * @c: element of the array
  * Return: Returjn the value
  */
 
-
-char *create_array(unsigned int size, char c){
+char *create_array(unsigned int size, char c)
+{
 	char *a;
 	unsigned int i = 0;
 
