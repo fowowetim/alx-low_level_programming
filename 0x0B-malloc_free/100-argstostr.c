@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - Concatenates all arguments of the program intoastring;
+ * argstostr - Concatenates all arguments of the program into a string;
  * @ac: The number of arguments passed to the program
  * @av: An array of pointers to the arguments
  * Return: If ac == 0, av == NULL, or the function fails - NULL
@@ -23,7 +23,6 @@ char *argstostr(int ac, char **av)
 	}
 
 	str = malloc(sizeof(char) * size + 1);
-	
 	if (str == NULL)
 		return (NULL);
 
