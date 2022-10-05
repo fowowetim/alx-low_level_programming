@@ -1,35 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * create_array - function that create an array
- * @size: parameter with the size of the array
- * @c: element of the array
- * Return: Return the value
+ * main - Arguments enters here
+ *
+ * @argc: counter of arguments passed
+ * @argv: vector of strings with arguments passed
+ *
+ * Return: Always 0 (Success)
  */
 
-char *create_array(unsigned int size, char c)
+int main(int argc, char *argv[])
 {
-	char *a;
-	unsigned int i = 0;
+	(void)argc;
 
-	a = malloc(sizeof(char) * size);
-
-	if (size == 0)
-	{
-		return (0);
-	}
-	else if (a == NULL)
-	{
-		return (0);
-	}
-	else
-	{
-		while (i < size)
-		{
-			a[i] = c;
-			i++;
-		}
-		return (a);
-	}
+	printf("%s\n", argv[0]);
 	return (0);
 }
