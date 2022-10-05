@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
+/**
  * create_array - function that create a array
  * @size: parameter with the size of the array
  * @c: element of the array
- * Return: Returjn the value
+ * Return: Return the value
  */
 
 char *create_array(unsigned int size, char c)
