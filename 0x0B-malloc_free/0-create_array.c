@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * create_array - function that create a array
+ * create_array - function that create an array
  * @size: parameter with the size of the array
  * @c: element of the array
  * Return: Return the value
@@ -14,6 +14,8 @@ char *create_array(unsigned int size, char c)
 
 	a = malloc(sizeof(char) * size);
 
+
+
 	if (size == 0)
 	{
 		return (0);
@@ -24,7 +26,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		while (i < size)
+		while(i < size)
 		{
 			a[i] = c;
 			i++;
